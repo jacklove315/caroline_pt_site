@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/walter.css">
 
     <!-- custom styles -->
-    <link href="{{asset('css/walter.css')}}" rel="stylesheet">
+{{--    <link href="{{asset('css/walter.css')}}" rel="stylesheet">--}}
 
 </head>
 <body>
