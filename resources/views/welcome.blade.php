@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Caroline Green Personal Trainer</title>
+    <title>Caroline Greene Personal Trainer</title>
 
     {{--    <!-- boostrap -->--}}
     {{--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"--}}
@@ -43,7 +43,7 @@
             </button>
 
             <!-- lOGO TEXT HERE -->
-            <a href="index.html" class="navbar-brand">Caroline Green </a>
+            <a href="index.html" class="navbar-brand">Caroline Greene</a>
         </div>
 
         <!-- MENU LINKS -->
@@ -70,7 +70,7 @@
             <div class="col-md-offset-1 col-md-10 col-sm-12">
                 <div class="home-info">
                     <h3>Meet Caroline Green!</h3>
-                    <h1>an award winning Fitness trainer, Yoga teacher and model.</h1>
+                    <h1>an award winning Fitness trainer, Yoga teacher and PowerLifter.</h1>
                     <a class="video-link popup-youtube" href="https://www.youtube.com/watch?v=1LF6bd51778"><i
                             class="fa fa-play"></i> Play Video</a>
                     <div class="home-btn">
@@ -317,7 +317,7 @@
 
             <div class="col-md-12 col-sm-12">
                 <div class="copyright-text">
-                    <h4>Caroline Green</h4>
+                    <h4>Caroline Greene</h4>
                 </div>
 
                 <ul class="social-icon">
