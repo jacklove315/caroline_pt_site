@@ -17,18 +17,18 @@
     <link rel="stylesheet" href="css/walter.css">
 
     <!-- custom styles -->
-{{--    <link href="{{asset('css/walter.css')}}" rel="stylesheet">--}}
+    {{--    <link href="{{asset('css/walter.css')}}" rel="stylesheet">--}}
 
 </head>
 <body>
 
 
 <!-- PRE LOADER -->
-{{--<section class="preloader">--}}
-{{--    <div class="spinner">--}}
-{{--        <span class="spinner-rotate"></span>--}}
-{{--    </div>--}}
-{{--</section>--}}
+<section class="preloader">
+    <div class="spinner">
+        <span class="spinner-rotate"></span>
+    </div>
+</section>
 
 
 <!-- MENU -->
@@ -54,6 +54,14 @@
                 <li><a href="#class" class="smoothScroll">Classes</a></li>
                 <li><a href="#gallery" class="smoothScroll">Gallery</a></li>
                 <li><a href="#contact" class="smoothScroll">Contacts</a></li>
+                @auth
+                    <li class="nav-item">
+                        <a href="/dashboard ">Dashboard</a>
+                    </li>
+                @endauth
+                @guest
+                    <li><a href="/login">Login</a></li>
+                @endguest
             </ul>
         </div>
 
@@ -157,7 +165,7 @@
             <div class="col-md-4 col-sm-4">
                 <div class="class-info">
                     <img src="images/class-image.jpg" class="img-responsive" alt="">
-                        <h3>Kettlebells</h3>
+                    <h3>Kettlebells</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                 </div>
             </div>

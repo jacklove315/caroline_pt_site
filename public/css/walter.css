@@ -713,3 +713,32 @@ footer {
     }
 
 }
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: 2px;
+
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 2px;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: 2px;
+}
+

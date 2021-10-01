@@ -89,7 +89,7 @@
    height:60px;   /* Height of the footer */
    background:#6cf;">
             <div class="d-flex justify-content-end">
-                Made with Love from Love Devs
+                Made with <img src="/images/heart.png"> from Love Devs
             </div>
         </footer>
     </div>

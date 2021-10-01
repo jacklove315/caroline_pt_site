@@ -33,7 +33,7 @@ class LoginController extends Controller
             //regenerate the users session
             session()->regenerate();
 
-            return redirect('/')->with('success', 'Successfully logged in!');
+            return redirect('/dashboard')->with('success', 'Successfully logged in!');
         }
 
         //else if auth fails

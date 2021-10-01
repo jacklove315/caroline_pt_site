@@ -4,9 +4,8 @@
 
     // PRE LOADER
     $(window).load(function(){
-      $('.preloader').fadeOut(1000); // set duration in brackets    
+      $('.preloader').fadeOut(1000); // set duration in brackets
     });
-    
 
     // MENU
     $('.navbar-collapse a').on('click',function(){
@@ -21,12 +20,12 @@
             $(".navbar-fixed-top").removeClass("top-nav-collapse");
           }
     });
-    
+
 
     // PARALLAX EFFECT
     $.stellar({
       horizontalScrolling: false,
-    }); 
+    });
 
 
     // MAGNIFIC POPUP
@@ -104,6 +103,6 @@
           }, 1000);
             event.preventDefault();
       });
-    });  
+    });
 
 })(jQuery);
