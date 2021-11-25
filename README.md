@@ -1,4 +1,5 @@
 <b>Technologies used to build this application</b>
+<hr>
 
 
 boostrap 5
