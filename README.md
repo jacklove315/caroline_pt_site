@@ -1,4 +1,4 @@
-what i used to build this site
+<b>Technologies used to build this application</b>
 
 
 boostrap 5
